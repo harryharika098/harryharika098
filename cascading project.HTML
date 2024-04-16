@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cascading</title>
+</head>
+<style>
+    div {
+        background-color:blue;
+        padding: 20px;
+        color:white;
+        text-align: left;
+        
+    } 
+ 
+    .inner-box {
+        background-color: red;
+    }
+p {
+    margin:0;
+    padding:0;
+    color: black;
+}
+
+.white-text {
+    color:white;
+}
+
+#outer-box {
+    background-color:purple
+}
+</style>
+<body>
+    <div id="outer-box" class="box">
+    <div class="box">
+        <p>Yellow Text</p>
+        <div class="box inner-box">
+            <p class="white-text">white text</p>
+    </div>
+    </div>
+    <div class="box">
+    <p>Yellow Text</p>
+    <div class="box inner-box">
+        <p class="white-text">white text</p>
+    </div>
+    </div>
+</div>
+
+</body>
+</html>
