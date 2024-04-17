@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STOPWATCH WEB APPLICATION</title>
+    <LINK REL="ICON" TYPE="IMAGE/X-ICON" HREF="https://cdn-icons-png.flaticon.com/512/5355/5355398.png">
+<STYLE>
+	
+	body { 
+	padding: 1rem; 
+	margin: 10px; 
+	align-items:center;
+	justify-content:center;
+	font-size:40px;
+	font-family:cursive; 
+	background-size:cover;
+	background-position: center;
+	background-image:url(https://png.pngtree.com/thumb_back/fh260/background/20230617/pngtree-arrow-tipped-3d-stopwatch-image_3641857.jpg);
+} 
+
+.container { 
+	display:flex;
+	flex-direction: column; 
+	justify-content:space-around; 
+	align-items: center; 
+	width: 100%; 
+	height: 100vh;
+
+
+} 
+
+h1 { 
+	color: whitesmoke; 
+	text-align: center; 
+} 
+
+.digit { 
+	font-size: 150px; 
+	color: #fff; 
+} 
+
+.txt { 
+	font-size: 30px; 
+	color: #fffcd6; 
+} 
+
+#buttons { 
+	margin-top: 50px; 
+} 
+
+.btn { 
+	height: 80px;
+	width: 150px; 
+	padding: 10px 15px; 
+	margin: 0px 20px; 
+	border-top-right-radius: 10px; 
+	border-bottom-left-radius: 10px; 
+	border-bottom-right-radius: 5px; 
+	border-top-left-radius: 5px; 
+	cursor: pointer; 
+	font-size: 30px; 
+	transition: 0.5s; 
+	color: white; 
+	font-weight: 600; 
+} 
+
+
+#start { 
+	border:4px solid whitesmoke;
+	background-color:darkgray; 
+} 
+
+#stop { 
+	border:3px solid whitesmoke;
+	background-color: navy; 
+} 
+
+#reset { 
+	border:3px solid whitesmoke;
+	background-color: #c91400; 
+}
+
+.footer {
+	color:whitesmoke;
+	border-top-left-radius: 30px;
+
+}
+
+</style>
+</head>
+<body>
+
+	<div class="container"> 
+		<h1><br>Stop Watch</h1> 
+		<div id="time"> 
+			<span class="digit" id="hr"> 
+				00</span> 
+			<span class="txt">Hr</span> 
+			<span class="digit" id="min"> 
+				00</span> 
+			<span class="txt">Min</span> 
+			<span class="digit" id="sec"> 
+				00</span> 
+			<span class="txt">Sec</span> 
+			<span class="digit" id="count"> 
+				00</span> 
+		</div> 
+		<div id="buttons"> 
+			<button class="btn" id="start"> 
+				Start</button> 
+			<button class="btn" id="stop"> 
+				Stop</button> 
+			<button class="btn" id="reset"> 
+				Reset</button> 
+		</div> 
+	</div> 
+
+	<script src="script.js"></script> 
+	<FOOTER>
+		<BR><BR>
+		<P>© Harry's Portfolio</P>
+	</FOOTER>
+</body> 
+</html>
+
+
+
