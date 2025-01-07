@@ -5,7 +5,7 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=harryharika098" alt="harryharika098" /></a> </p>
 
-- 🔭 I’m currently working on **web development**
+- 🔭 I’m currently working on **React-js Development**
 
 - 🌱 I’m currently learning **FRONT-END WEB DEVELOPER**
 
